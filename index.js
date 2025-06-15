@@ -16,7 +16,7 @@ app.use("/api/v1/admin", adminRouter);
 app.use("/api/v1/course", courseRouter);
 
 async function main() {
-    await mongoose.connect("mongodb+srv://Admin:Rohan123%40@cluster1.wm8zj.mongodb.net/App")
+    await mongoose.connect("mongodb+srv://Manpreet:5911@cluster0.2qcfgv0.mongodb.net/App")
     app.listen(3000);
 }
 
